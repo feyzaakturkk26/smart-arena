@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYBÜ Smart Arena</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+    <div class="logo">
+        AYBÜ Smart Arena
+    </div>
+
+    <ul>
+
+        <li><a href="index.html">Ana Sayfa</a></li>
+
+        <li><a href="#events">Etkinlikler</a></li>
+
+        <li><a href="pages/clubs.html">Kulüpler</a></li>
+
+        <li><a href="pages/about.html">Hakkımızda</a></li>
+
+        <li><a href="pages/reservation.html">Rezervasyon</a> </li>
+
+    </ul>
+
+</nav>
+
+    <section class="hero">
+
+    <h1>
+        Kampüs Yaşamını Dijitalleştir
+    </h1>
+
+    <p>
+        Etkinlikleri keşfet, rezervasyon yap,
+        kulüplere katıl ve kampüs hayatını
+        daha aktif yaşa.
+    </p>
+
+    <a href="#events">
+        <button>
+            Etkinlikleri İncele
+        </button>
+    </a>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-box">
+
+        <h2>5000+</h2>
+
+        <p>Öğrenci</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2>250+</h2>
+
+        <p>Etkinlik</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2>35+</h2>
+
+        <p>Kulüp</p>
+
+    </div>
+
+</section>
+
+    <section class="events" id="events">
+
+        <h2>Yaklaşan Etkinlikler</h2>
+
+        <div class="event-container" id="eventContainer">
+
+        </div>
+
+    </section>
+
+    <section class="add-event">
+
+        <h2>Yeni Etkinlik Ekle</h2>
+
+        <input
+            type="text"
+            id="eventTitle"
+            placeholder="Etkinlik Adı">
+
+        <input
+            type="date"
+            id="eventDate">
+
+        <input
+            type="number"
+            id="eventCapacity"
+            placeholder="Kontenjan">
+
+        <button id="addEventBtn">
+            Etkinlik Ekle
+        </button>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 AYBÜ Smart Arena
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
