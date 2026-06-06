@@ -422,3 +422,38 @@ footer{
 
     font-size:18px;
 }
+
+@media (max-width: 768px) {
+
+  .hero {
+    height: 70vh;
+    padding: 20px;
+  }
+
+  .hero-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
